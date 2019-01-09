@@ -62,8 +62,8 @@ spring:
             required: true
   boot:
     admin:
-      username: admin
-      password: admin
+      username: root
+      password: root
   zipkin:
     rabbitmq:
       queue: zipkin
@@ -111,8 +111,8 @@ paascloud:
       expiredMinutes: 120
   aliyun:
     key:
-      accessKeyId: 'your aliyun accessKeyId'
-      accessKeySecret: 'your aliyun accessKeySecret'
+      accessKeyId: 'accessKeyId'
+      accessKeySecret: 'accessKeySecret'
     rocketMq:
       namesrvAddr: paascloud-mq-rocket:9876
     sms:
