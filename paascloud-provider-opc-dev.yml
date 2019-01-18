@@ -50,7 +50,7 @@ security:
       user-info-uri: http://paascloud-gateway:7979/uac/user
       prefer-token-info: false
       jwt:
-        key-uri: http://paascloud-provider-uac:8000/oauth/token_key
+        key-uri: http://paascloud-provider-uac:8072/oauth/token_key
 
 paascloud:
   enableSqlLogInterceptor: false
@@ -84,7 +84,7 @@ paascloud:
       enable: true
       reliableMessageConsumer: true
       reliableMessageProducer: false
-      namesrvAddr: paascloud-mq-rocket:9876
+      namesrvAddr: paascloud-aliyun:9876
       instanceName: paascloud-provider-opc
       consumerGroup: CID_OPC
       producerGroup: PID_OPC
